@@ -1,0 +1,28 @@
+# Build files
+*.exe
+*.lib
+*.dll
+*.obj
+*.o
+
+# Temp or debug
+*.log
+*.tmp
+*.bak
+*.swp
+
+# VS Code settings
+.vscode/
+
+# CMake and SFML cache files
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+
+# Ignore user/project settings
+*.user
+*.suo
+*.vcxproj.user
+
+# Ignore compiled libraries
+lib/*
